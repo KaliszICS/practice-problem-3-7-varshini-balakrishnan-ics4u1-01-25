@@ -32,5 +32,6 @@ public class PracticeProblem {
 		if (left != -1 && (min == -1 || left < min)) min = left;
 		if (down != -1 && (min == -1 || down < min)) min = down;
 		return min;
+	}
 
 	}
